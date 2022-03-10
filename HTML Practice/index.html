@@ -39,7 +39,125 @@
         <h1>Links</h1>
         <p><a href="https://www.google.com" target="_blank">Google</a></p>
         <p><a href="page2.html" target="_blank">Page 2</a></p>
-        <!--Stopped at Images at 1:07-->
+        <hr/>
+        <h1>Images</h1>
+        <img src="https://cdn.britannica.com/83/211283-131-3DB62136/Tyrannosaurus-Rex-Struthiomimus-dinosaurs.jpg" alt="Big dino chasing 2 smaller dinos"/>
+        <img src="NYC-Night-Top-Of-Rock.jpg" alt="Top of 30 Rock" height="1000"/>
+        <hr/>
+        <h1>Videos</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3MwleNB4w88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--To embed YouTube videos, just go to the video, click share, click embed, and copy the iframe link and past it into the html file.-->
+        <!--Can also use iframe tags to embed an entire website into my website. A lot of websites won't allow that tho to prevent people from making a fake website disguised as the real website-->
+        <hr/>
+        <h1>Lists</h1>
+        <p>Unordered List</p>
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Oranges</li>
+            <li>Watermelons</li>
+        </ul>
+        <p>Ordered List (Numbered)</p>
+        <ol type="1"> <!--This is the default so if you do not include a type then it will just be numbered anyways-->
+            <li>Step 1</li>
+            <li>Step 2</li>
+            <li>Step 3</li>
+        </ol>
+        <p>Ordered List (Lettered)</p>
+        <ol type="A"> <!--Using a lowercase "a" will make the letters lowercase-->
+            <li>Step A</li>
+            <li>Step B</li>
+            <li>Step C</li>
+        </ol>
+        <p>Ordered List (Roman Numerals)</p>
+        <ol>
+            <li>Step I</li>
+            <li>Step II</li>
+            <li>Step III</li>
+        </ol>
+        <p>Embedded Lists</p>
+        <ol>
+            <li>Step 1</li>
+            <li>Step 2</li>
+            <ol type="A">
+                <li>Step A</li>
+                <li>Step B</li>
+            </ol>
+        </li>
+        <li>Step 3</li>
+        </ol>
+        <hr/>
+        <h1>Tables</h1>
+        <table>
+            <thead> <!--table head-->
+            <caption><h2>List of Numbers</h2></caption>
+            <tr> <!--th stands for table header-->
+                <th>num1</th>
+                <th>num2</th>
+                <th>num3</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr> <!--tr stands for table row, td stands for table data-->
+                <td>One</td>
+                <td>Two</td>
+                <td>Three</td>
+            </tr>
+            <tr> <!--tr stands for table row, td stands for table data-->
+                <td>Four</td>
+                <td>Five</td>
+                <td>Six</td>
+            </tr>
+            </tbody>
+        </table>
+        <hr/>
+        <h1>Containers</h1>
+        <hr/>
+        <h1>Divs and Spans</h1>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <span>Span 1</span>
+        <spam>Span 2</spam>
+        <div>div1</div>
+        <div>div2</div>
+        <hr/>
+        <h1>Inputs and Forms</h1>
+        <!--Javascript is used a lot for textboxes and forms, but just use HTML for now-->
+        <form> <!--Used as a wrapper for input tags. Very important when using Javascript-->
+        <div>
+            <input type="text" value="Enter your username" />
+        </div>
+        <div>
+            <input type="password"/>
+        </div>
+        <div>
+            <textarea rows="10" cols="30">
+            Enter a paragraph.
+            </textarea>
+        </div>
+        <div>
+            <input type="date"/>
+        </div>
+        <div>
+            <input type="range"/>
+        </div>
+        <div>
+            <input type="file"/>
+        </div>
+        <div>
+            <input type="checkbox"/>
+            <input type="checkbox"/>
+            <input type="checkbox"/>
+        </div>
+        <div>
+            <input type="radio"/>
+            <input type="radio"/>
+            <input type="radio"/>
+        </div>
+        <div>
+            <input type="submit"/>
+        </div>
+        </form>
         </main>
         
         <footer></footer>
